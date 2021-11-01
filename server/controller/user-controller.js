@@ -14,7 +14,7 @@ class UserController {
         maxAge: 30 * 24 * 60 * 60 * 1000,
         httpOnly: true, // VERY IMPORTANT!
       });
-      res.json({ data: userData });
+      res.json({ ...userData });
     } catch (e) {
       next(e);
     }
@@ -32,7 +32,7 @@ class UserController {
         maxAge: 30 * 24 * 60 * 60 * 1000,
         httpOnly: true, // VERY IMPORTANT!
       });
-      res.json({ data: userData });
+      res.json({ ...userData });
     } catch (e) {
       next(e);
     }
@@ -67,7 +67,7 @@ class UserController {
         maxAge: 30 * 24 * 60 * 60 * 1000,
         httpOnly: true, // VERY IMPORTANT!
       });
-      res.json({ data: userData });
+      res.json({ ...userData });
     } catch (e) {
       next(e);
     }
