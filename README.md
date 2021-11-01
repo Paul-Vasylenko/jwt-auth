@@ -33,12 +33,12 @@
 
 ## .env file
 PORT=5000
-DB_URL= Create your mongo db and write here the link-connection
-JWT_ACCESS_SECRET= *any string that noone knows*
-JWT_REFRESH_SECRET= *any string that noone knows*
-EMAIL_ADRESS=Email which you want to use to send your verify-messages
-EMAIL_PASSWORD= Password for your email, better to use "Google app password", if you use Gmail
-SMTP_PORT=Port for your mailer. Gmail uses 587
-SMTP_HOST=Host for your mailer. Gmail uses smtp.gmail.com
-API_URL=http://localhost:5000
-CLIENT_URL=http://localhost:3000
+DB_URL= Create your mongo db and write here the link-connection <br />
+JWT_ACCESS_SECRET= *any string that noone knows* <br />
+JWT_REFRESH_SECRET= *any string that noone knows* <br />
+EMAIL_ADRESS=Email which you want to use to send your verify-messages <br />
+EMAIL_PASSWORD= Password for your email, better to use "Google app password", if you use Gmail <br />
+SMTP_PORT=Port for your mailer. Gmail uses 587 <br />
+SMTP_HOST=Host for your mailer. Gmail uses smtp.gmail.com <br />
+API_URL=http://localhost:5000 <br />
+CLIENT_URL=http://localhost:3000 <br />
