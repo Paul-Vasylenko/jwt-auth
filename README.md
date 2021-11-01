@@ -25,11 +25,11 @@
 
 
 ## To run this app:
-– [x] cd client && npm install
-– [x] cd server && npm install
-– [x] create .env file and copy everything from .env.example file (finish this later)
-– [x] cd client && npm start
-– [x] cd server && npm run dev
+- [x] cd client && npm install
+- [x] cd server && npm install
+- [x] create .env file and copy everything from .env.example file (finish this later)
+- [x] cd client && npm start
+- [x] cd server && npm run dev
 
 ## .env file
 PORT=5000
